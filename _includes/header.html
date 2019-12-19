@@ -1,5 +1,22 @@
 <header>
     <h1><a href='{{ site.url }}/'>{{ site.name }}</a></h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="{{ site.url }}/">{{ site.name }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-brand mb0 h1">{{ site.name }}</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="{{ site.url }}/">Home</a>
+                <a class="nav-item nav-link" href="{{ site.url }}/about/">About</a>
+                <a class="nav-item nav-link" href="{{ site.url }}/projects/">Projects</a>
+                <a class="nav-item nav-link" href="{{ site.url }}/resume/">Resume</a>
+                <a class="nav-item nav-link" href="{{ site.url }}/contact/">Contact</a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </div>
+        </div>
+    </nav>
 </header>
-<a href='{{ site.url }}/'> Home</a> | <a href='{{ site.url }}/about/'>About </a> | <a href='{{ site.url }}/contact/'> Contacts</a> | <a href='{{ site.url }}/archive/'> Archive</a> 
-<hr>
+

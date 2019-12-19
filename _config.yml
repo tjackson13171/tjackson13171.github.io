@@ -1,7 +1,7 @@
-name: "Jekyll true minimal theme"
-description: "Lightweight theme"
+name: Taylor Jackson
+description: Taylor Jackson's website
 
-url: '' 
+url: 'tjackson13171.github.io'
 baseurl: ''
 
 markdown: kramdown
