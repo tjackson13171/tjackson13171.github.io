@@ -1,7 +1,7 @@
-name: Taylor Jackson
-description: Taylor Jackson's website
+name: "Taylor Jackson"
+description: "Taylor Jackson's personal website"
 
-url: 'tjackson13171.github.io'
+url: ''
 baseurl: ''
 
 markdown: kramdown
