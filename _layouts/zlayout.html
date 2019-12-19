@@ -1,12 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Taylor Jackson's website">
-    <meta name="author" content="Taylor Jackson">
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     {% if site.highlighter %}
     <link rel='stylesheet' href='{{ site.url }}/assets/css/syntax.css' type='text/css'>
@@ -22,14 +21,20 @@
 <body>
 <div class="container">
     {% include header.html %}
+    <<main role="main">
 
-    <div class="row">
-        <div class="col-8">
-            {{ content }}
+    {{ content }}
+
+    <div class="container">
+        <div class="row">
+            {% include block1.html %}
+            {% include block2.html %}
+            {% include block3.html %}
         </div>
-
-    {% include footer.html %}
+        <hr>
     </div>
+</main>
+    {% include footer.html %}
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
