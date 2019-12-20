@@ -5,3 +5,9 @@ body {
 .embed-responsive-210by297 {
     padding-bottom: 141.42%;
 }
+
+li-badge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
