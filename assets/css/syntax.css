@@ -13,3 +13,7 @@ body {
     margin-right: auto;
     width: 50%;
 }
+
+.floatLeft {
+    float: left;
+}
